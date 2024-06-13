@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# api
 # AFTER CLONING THIS REPO CREATE A VIRTUAL ENVIRONMENT
 ```sh
@@ -35,3 +36,7 @@ python manage.py createsuperuser
 ```sh
 http://127.0.0.1:8000/admin/
 ```
+=======
+# SE2NLP
+ETO NA YUNG FINAL
+>>>>>>> a0d5011663b05568eba7cd8477504ea7d9f148f9
