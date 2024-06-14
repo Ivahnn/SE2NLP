@@ -6,9 +6,9 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/doc1.mp4" autoPlay loop muted />
-      <h1>Welcome to St. John's PharmAssist!</h1>
-      <p>We're always ready to assist!</p>
+      <video src="/videos/newvid.mp4" autoPlay loop muted />
+      <h1>Welcome to MedQuery</h1>
+      <p>Your Digital Medical Advisor</p>
       <div className="hero-btns">
         <Button
           to="/aboutus"

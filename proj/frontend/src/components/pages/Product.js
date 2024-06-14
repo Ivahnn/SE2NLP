@@ -7,7 +7,7 @@ import Navbar from "../Navbar";
 function Product() {
   return (
     <>
-    <Navbar/>
+      <Navbar/>
       <MedsList />
       <Footer />
     </>
