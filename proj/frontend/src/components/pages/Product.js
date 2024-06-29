@@ -3,13 +3,14 @@ import '../../App.css'; // Updated import path
 import Footer from "../Footer";
 import MedsList from "../MedsList";
 import Navbar from "../Navbar";
+import SearchingMedicine from "../Searchmedicine";
 
 function Product() {
   return (
     <>
       <Navbar/>
-      <MedsList />
-      <Footer />
+      <SearchingMedicine/>
+      <Footer />  
     </>
   );
 }

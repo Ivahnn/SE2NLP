@@ -7,8 +7,7 @@ import Navbar from "../Navbar";
 export default function Contactus() {
   return (
     <>
-        <Navbar/>
-
+      <Navbar/>
       <Contact />
       <Footer />
     </>

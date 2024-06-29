@@ -26,7 +26,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/Home" className="navbar-logo" onClick={closeMobileMenu}>
             MedQuery
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -34,7 +34,7 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/Home" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
@@ -45,7 +45,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Drug information
               </Link>
             </li>
 
@@ -68,10 +68,9 @@ function Navbar() {
                 Contact Us
               </Link>
             </li>
-
             <li className="nav-item">
-              <Button to="/sign-up" buttonStyle="btn--outline">
-                Log-in <i className="fas fa-arrow-right" />
+              <Button to="/Admin" buttonStyle="btn--outline">
+                log-out <i className="fas fa-arrow-right" />
               </Button>
             </li>
           </ul>

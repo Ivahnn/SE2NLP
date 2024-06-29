@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../../App.css";
+
 
 function SignUp() {
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ function SignUp() {
     { username: "ivahnn", password: "ivahnn123" },
     { username: "user2", password: "password2" },
     { username: "Admin", password: "admin123" },
-    // Add more users as needed
+
   ];
 
   const handleLogin = () => {
@@ -23,7 +23,7 @@ function SignUp() {
 
     if (user) {
       // After successful login, navigate to the 'products' route
-      navigate("/Admin");
+      navigate("/Home");
     } else {
       // Handle incorrect login
       alert("Incorrect username or password");
